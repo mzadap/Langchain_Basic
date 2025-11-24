@@ -1,0 +1,21 @@
+✅,Day,Topic,Focus Area,Learning Goal / Task,Resources / Tools
+☐,1,Python Refresher,Basics,"Variables, Loops, Functions",W3Schools / Python.org
+☐,2,Python Refresher,Libraries,Learn NumPy basics,NumPy.org / YouTube
+☐,3,Python Refresher,Libraries,Learn Pandas basics,Pandas Docs / FreeCodeCamp
+☐,4,Python Refresher,Data Handling,"Load CSV, handle missing data",Kaggle / Pandas Docs
+☐,5,Python Refresher,Visualization,Matplotlib + Seaborn basics,FreeCodeCamp
+☐,6,Python Practice,Mini Projects,EDA on sample dataset,Kaggle Datasets
+☐,8,Math Basics,Linear Algebra,"Vectors, Matrices, Dot product",Khan Academy
+☐,9,Math Basics,Probability,"Mean, Variance, Bayes Rule",3Blue1Brown / Khan Academy
+☐,10,Math Basics,Statistics,"Normal distribution, sampling",StatQuest
+☐,16,EDA Project,Practice,Analyze Titanic Dataset,Kaggle Titanic
+☐,20,Supervised Learning,Regression,Linear Regression implementation,Scikit-learn Docs
+☐,23,Supervised Learning,Trees,"Decision Tree, Random Forest",Sklearn
+☐,28,Unsupervised Learning,Theory,"Clustering, PCA overview",StatQuest
+☐,35,Deep Learning,TensorFlow,Intro to TensorFlow/Keras,TensorFlow.org
+☐,43,CNN,Practice,Image Classification,PyTorch
+☐,49,NLP Project,Sentiment Analysis,Twitter Dataset,Kaggle
+☐,53,Transformer,Hands-on,Use pre-trained BERT model,Hugging Face
+☐,60,Deployment Project,Deploy Model,Use Streamlit,Streamlit Docs
+☐,66,Capstone Project,E2E ML Project,Dataset + Model + Deployment,Kaggle
+☐,86,Final Project,End-to-End AI Project,Choose domain: Vision/NLP,Hugging Face / Kaggle

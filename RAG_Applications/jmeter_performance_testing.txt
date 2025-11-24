@@ -1,0 +1,59 @@
+Performance Testing Using JMeter
+
+Introduction
+
+Apache JMeter is an open-source tool designed for performance testing,
+load testing, and stress testing web applications and various services.
+
+Key Features
+
+-   Supports HTTP, HTTPS, SOAP, REST, FTP, JDBC, JMS, and more.
+-   Allows creating complex test plans with multiple threads and
+    samplers.
+-   Provides detailed performance metrics and reporting.
+-   Extensible via plugins.
+
+Components of JMeter
+
+1.  Test Plan – The root container for all testing elements.
+2.  Thread Group – Defines number of users, ramp-up, and loop count.
+3.  Samplers – Represents the actual request (HTTP Request, JDBC
+    Request, etc.).
+4.  Listeners – Visualize and store results (View Results Tree, Summary
+    Report).
+5.  Timers – Add delays between requests.
+6.  Assertions – Validate response content or response time.
+
+Steps to Create a Basic Test
+
+1.  Add a Thread Group.
+2.  Add HTTP Request sampler.
+3.  Configure the server details and parameters.
+4.  Add a Listener like Summary Report.
+5.  Run the test and analyze results.
+
+Types of Performance Testing With JMeter
+
+-   Load Testing
+-   Stress Testing
+-   Spike Testing
+-   Endurance Testing
+-   Scalability Testing
+
+Best Practices
+
+-   Use realistic test data.
+-   Start with a small load and increase gradually.
+-   Monitor server resources (CPU, Memory, Network).
+-   Avoid running JMeter GUI for large tests—use CLI mode.
+-   Use distributed testing for high-load scenarios.
+
+Command to Run JMeter in CLI Mode
+
+    jmeter -n -t testplan.jmx -l results.jtl -e -o /output_folder
+
+Conclusion
+
+JMeter is a powerful and flexible tool for conducting performance
+testing and can effectively validate system behavior under various load
+conditions.
