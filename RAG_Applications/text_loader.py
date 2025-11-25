@@ -7,7 +7,7 @@ from langchain_core.output_parsers import StrOutputParser
 model = ChatOllama(model="llama3.2")
 
 prompt = PromptTemplate(
-    template = 'Write Components of JMeter the following document \n {jmeter} ',
+    template = 'Write Types of Performance Testing With JMeter the following document \n {jmeter} ',
     input_variables = ['jmeter']
 )
 
@@ -17,7 +17,8 @@ loader = TextLoader('jmeter_performance_testing.txt', encoding='utf-8')
 
 docs = loader.load()
 
-
+# print(docs)
+# print(docs[0].page_content)
 
 # print(docs)
 #
